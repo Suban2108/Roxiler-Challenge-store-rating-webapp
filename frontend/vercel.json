@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://roxiler-challenge-store-rating-webapp.onrender.com/api/$1" }
+  ]
+}
