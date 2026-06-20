@@ -1,0 +1,16 @@
+{
+  "name": "StoreRate",
+  "short_name": "StoreRate",
+  "description": "Store Rating Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
