@@ -1,7 +1,7 @@
-const { Pool } = require('pg');
 const config = require('../config');
+const postgres = require('postgres');
 
-const pool = new Pool({
+const pool = new postgres({
   connectionString: config.databaseUrl,
 });
 
