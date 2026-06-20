@@ -3,6 +3,7 @@ import { LogOut, Store, Users, LayoutDashboard, KeyRound } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { useAuth } from '@/context/AuthContext';
+import Logo from '../../../public/logo.jpeg'
 
 export function Navbar() {
   const { user, logout } = useAuth();
@@ -41,7 +42,7 @@ export function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         <div className="flex items-center gap-6">
           <Link to="/" className="text-lg font-bold tracking-tight text-primary">
-            StoreRate
+              <img src={Logo} alt="logo" className='logo w-[50px] rounded-[40px]'/>
           </Link>
           <nav className="hidden items-center gap-1 md:flex">
             {links.map((link) => (
