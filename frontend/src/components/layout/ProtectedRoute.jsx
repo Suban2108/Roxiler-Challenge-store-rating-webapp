@@ -17,10 +17,9 @@ export function ProtectedRoute({ children, roles = [] }) {
     return <Navigate to="/login" replace />;
   }
 
+  // Redirect unauthorized roles to landing page
   if (roles.length && !roles.includes(user.role)) {
-    const redirect =
-      user.role === 'admin' ? '/admin' : user.role === 'store_owner' ? '/owner' : '/dashboard';
-    return <Navigate to={redirect} replace />;
+    return <Navigate to="/landing" replace />;
   }
 
   return children;
