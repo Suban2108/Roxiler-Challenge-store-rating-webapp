@@ -53,12 +53,12 @@ See `backend/src` and `frontend/src` for implementation. Backend DB schema and s
 
 
 ## Example Data to login as [ admin, user, owner ]:
-# Admin: 
+### Admin: 
 - email: `admin@storeplatform.com` ; password: `Admin@Pass123`
 
-# User: 
+### User: 
 - email: `user@storeplatform.com` ; password: `User@Pass123`
 
-# Owner:
+### Owner:
 - Owner1: email: `owner1@storeplatform.com` ; password: `Owner@Pass123`
 - Owner2: email: `owner2@storeplatform.com` ; password: `Owner@Pass123`
